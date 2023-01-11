@@ -15,8 +15,9 @@ Wi-Fi 子系统包含 802.11b/g/n 基带、MAC 和带有集成 PA、LNA、开关
 ### 关键参数
 
 * 384 MHz + 240 MHz Cortex-M4F
-* 416KB SRAM 和 160KB 代码 ROM
-* IEEE 802.11b/g/n，1x1 SISO 2.4GHz
+* 416KB SRAM 
+* IEEE 802.11b/g/n，HT20
+* 1x1 SISO 2.4GHz
 
 #### Audio
 
