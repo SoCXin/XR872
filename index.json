@@ -1,0 +1,35 @@
+{
+    "type":"SoC",
+    "name":"XR872",
+    "title": "xradiotech XR872 SoC",
+    "description":"xradiotech Cortex-M4 Wi-Fi/BLE SoC",
+    "Core": {
+        "CoreNum": 2,
+        "Core":"Cortex-M4",
+        "Fmax":384,
+        "DMIPS": 400,
+        "CoreMark": 800
+    },
+    "manufacturer": {
+        "vendor":"xradiotech",
+        "homepage":"https://www.xradiotech.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/XR872.git"
+    },
+    "version":"1.0.0",
+    "series":["XR872"],
+    "package":["QFN40","QFN52"],
+    "peripheral": ["Wi-Fi","BLE","SDIO","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M4",
+        "xradiotech",
+        "Wi-Fi","BLE","ADC","I2C","RTC","SPI","UART",
+        "3.6V","1.8V"
+    ]
+}
